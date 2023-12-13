@@ -1,0 +1,22 @@
+.tabelaItens{
+    border: 1px solid #CDCDCD;
+    border-collapse: collapse;
+    width: 95%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight:unset;
+}
+.tabelaItens th{
+    background-color:#15C7FF; 
+    border: 1px solid #CDCDCD;
+    border-collapse: collapse; 
+    color: white; 
+   
+    text-align: left;
+    padding-left: 10px;
+}
+.tabelaItens tr, .tabelaItens td{
+    border: 1px solid #CDCDCD;
+    border-collapse: collapse;
+    padding-left: 10px;
+}

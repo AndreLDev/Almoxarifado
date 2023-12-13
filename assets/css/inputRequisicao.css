@@ -70,11 +70,19 @@ input, select{
     width: 300px;
 }
 .grupoEstoque{
-    width: 80px;
+    width: 60px;
+    margin-right: 5px; 
 }
 .grupoEstoque input{
+    width: 60px;
+}
+.grupoQuantidade{
     width: 80px;
 }
+.grupoQuantidade input{
+    width: 80px;
+}
+
 
 .BtnInserirItens{
     background-color:#0095C5 ;
@@ -87,7 +95,28 @@ input, select{
     cursor: pointer;
 
 }
-.BtnInserirItens span{
+.BtnInserirItens button{
+    background-color:#0095C5 ;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor: pointer;
     color: #ffffff;
     font-size: 14px;
+}
+
+#total{
+    width: 120px;
+    background-color: #CDCDCD;
+    margin-left: 5px;
+}
+input{
+    outline-color: #0095C5;
+}
+#total:focus{
+    outline-color: #CDCDCD;
 }

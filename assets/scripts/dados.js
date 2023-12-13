@@ -1,33 +1,51 @@
 const categorias = [
     {
         "idCategoria": 1,
-        "Descricao": "Gestão"
+        "Descricao": "Gestão",
     },
     {
         "idCategoria": 2,
-        "Descricao": "Cliente"
+        "Descricao": "Cliente",
     },
     {
         "idCategoria": 3,
-        "Descricao": "Rp"
+        "Descricao": "RP",
     },
 ]
-
-
-const motivos = [
+const motivos=[
     {
         "idMotivo": 1,
         "Descricao": "Planejamento",
-        "idCategoria": 1,
+        "idCategoria": 1
     },
     {
         "idMotivo": 2,
         "Descricao": "Financeiro",
-        "idCategoria": 1,
+        "idCategoria": 1
     },
     {
         "idMotivo": 3,
-        "Descricao": "Financeiro",
-        "idCategoria": 2,
+        "Descricao": "Quebra de Máquina",
+        "idCategoria": 2
+    }
+]
+
+
+const produtos=[
+    {
+        "idProduto": 10,
+        "Descricao": "Papel A4",
+        "Estoque": 10,
+        "EstoqueMinimo": 5,
+        "Unidade":'Pç',
+        "Valor": 10,
+    },
+    {
+        "idProduto": 20,
+        "Descricao": "Mel doce",
+        "Estoque": 5,
+        "EstoqueMinimo": 5,
+        "Unidade":'Pç',
+        "Valor": 20,
     },
 ]
