@@ -106,16 +106,23 @@ function exibirDadosTabela(id, produto, estoque, quantidade){
         }
         
         if(codigo == id && quantidade <= Qtd && quantidade != ''){
-            const stringAux = "<tr><td>"+codigo+"</td><td>"+produto+"</td><td>"+Qtd+"</td><td>"+quantidade+"</td><td>R$"+Preco+"</td><td>R$"+Preco*quantidade+"</td></tr>";
+            const stringAux = "<tr><td>"+codigo+"</td><td>"+produto+"</td><td>"+Qtd+"</td><td>"+quantidade+"</td><td>R$"+Preco+"</td><td>R$"+Preco*quantidade+"</td><td><button id='test'>Remover</button></td></tr>";
             document.getElementById("tabelaTeste").innerHTML += stringAux;
 
             Produto.Estoque = Qtd - quantidade;
+            if(document.getElementById("total").value != ''){
+                document.getElementById("total").value = parseInt(document.getElementById("total").value) + Preco*quantidade;
+            }else{
+                document.getElementById("total").value = Preco*quantidade;
+            }
+            
         }
         
     });
         
     
 }
+
 
 
 function adicionarProduto(){
