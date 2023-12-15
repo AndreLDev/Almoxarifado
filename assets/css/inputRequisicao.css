@@ -96,7 +96,7 @@ input, select{
 
 }
 .BtnInserirItens button{
-    background-color:#0095C5 ;
+    background-color:#007C1B ;
     width: 100px;
     height: 30px;
     border-radius: 20px;
@@ -107,6 +107,18 @@ input, select{
     cursor: pointer;
     color: #ffffff;
     font-size: 14px;
+}
+
+.BtnRemoverItens{
+    background-color:#c50000 ;
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    font-size: 11px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 #total{
