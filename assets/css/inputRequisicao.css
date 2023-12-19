@@ -23,64 +23,66 @@ input, select{
     font-size: 16px;
 }
 #idDepartamento{
-    width: 60px;
+    max-width: 60px;
 }
 #departamento{
-    width: 450px;
+    max-width: 450px;
 }
 #dataRequisicao{
-    width: 120px;
+    max-width: 120px;
 }
 #idFuncionario{
-    width: 60px;
+    max-width: 60px;
 }
 #NomeFuncionario{
-    width: 450px;
+    max-width: 450px;
 }
 #cargo{
-    width: 120px;
+    max-width: 120px;
 }
 #categoriaMotivo{
-    width: 130px;
+    max-width: 130px;
 }
 #Motivo{
-    width: 200px;
+    max-width: 200px;
 }
 .grupo9{
-    width: 250px;
+    max-width: 250px;
 }
 
 .camposItens span{
     font-size: 16px;
 }
 .grupoProduto{
-    width: 90px;
+    max-width: 90px;
     margin-right: 5px;
 
 }
 .grupoProduto input{
-    width: 90px;
+    max-width: 90px;
 }
 
 .grupoProdutoDescricao{
-    width: 300px;
+    max-width: 300px;
     margin-right: 5px;
+    display: flex;
+    flex-direction: column;
 }
 .grupoProdutoDescricao input{
-    width: 300px;
+    max-width: 300px;
 }
 .grupoEstoque{
-    width: 60px;
+    max-width: 60px;
     margin-right: 5px; 
 }
 .grupoEstoque input{
-    width: 60px;
+    max-width: 60px;
 }
 .grupoQuantidade{
-    width: 80px;
+    max-width: 80px;
 }
 .grupoQuantidade input{
-    width: 80px;
+    max-width: 80px;
 }
 
 
@@ -93,6 +95,7 @@ input, select{
     justify-content: center;
     align-items: center ;
     cursor: pointer;
+    margin-top: 10px;
 
 }
 .BtnInserirItens button{
@@ -132,3 +135,4 @@ input{
 #total:focus{
     outline-color: #CDCDCD;
 }
+

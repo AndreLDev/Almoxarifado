@@ -1,46 +1,48 @@
-*{
+* {
     color: #000000;
-    margin:0;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* body{
-    width: 100vw;
-} */
-.main{
-    width: 100vw;
-    height: 100vh;
+body {
+    font-size: 16px;
+}
+
+.main {
+    width: 80%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-size: 20px;    
-    align-items: center;   
-    justify-content: center;  
-
+    align-items: center;
+    
 }
-.header{
-    width: 50vw;
-    height: 5vh;
-    background-color: #15C7FF;   
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #15C7FF;
     display: flex;
     align-items: center;
-    padding-left: 1vw;
-    padding-right: 1vw;
-  
+    padding: 0 10px;
 }
+
 .header span{
     color: #ffffff;
 }
-.conteudo{
-    /* background-color: yellow; */
-    padding-top: 3vh;
-    width: 50vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    border-color:  #CDCDCD;;
+.conteudo {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color:  #CDCDCD;
     border-radius: 20px;
     border-style: solid;
-    flex-wrap: wrap;
-  
+}
+.camposPrincipais,
+.camposItens {
+    width: 100%;
 }
 .camposPrincipais{
     width: 100%;
@@ -114,7 +116,6 @@
 
 }
 
-/* ITENS */
 .camposItens{
     display: flex;
     flex-direction: column;
@@ -163,3 +164,127 @@
 .linhaTotal span{
     font-size: 18px;
 }
+
+
+
+
+ /*
+  * {
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.main {
+    width: 80%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #15C7FF;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header span {
+    color: #ffffff;
+}
+
+.conteudo {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color:  #CDCDCD;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.camposPrincipais,
+.camposItens {
+    width: 100%;
+}
+
+.grupoInput,
+.linhasCampos,
+.grupoStatusEstoque,
+.grupoBtnInserirItens {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.tabelaItens {
+    width: 100%;
+    font-size: 14px;
+}
+
+.BtnInserirItens button {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+}
+
+input,
+select {
+    width: 100%; 
+}
+
+.inputContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grupoProduto,
+.grupoProdutoDescricao,
+.grupoEstoque,
+.grupoQuantidade {
+    width: calc(25% - 10px);
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .grupoProduto,
+    .grupoProdutoDescricao,
+    .grupoEstoque,
+    .grupoQuantidade {
+        width: calc(50% - 10px);
+    }
+}
+
+
+.radioPrioridade{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.grupoPrioridade{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.chkPrioridade{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.grupoPrioridade span{
+    margin-right: 10px;
+} */
