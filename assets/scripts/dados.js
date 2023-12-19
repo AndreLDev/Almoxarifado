@@ -49,3 +49,41 @@ const produtos=[
         "Valor": 20,
     },
 ]
+
+
+
+const departamentos = [
+    {
+        "idDep": 1,
+        "Descricao": "Sec. Educação",
+        "Responsavel": "José"
+    },
+    {
+        "idDep": 2,
+        "Descricao": "Sec. Trabalho",
+        "Responsavel": "Menino Feio"
+    },
+    {
+        "idDep": 3,
+        "Descricao": "NAT",
+        "Responsavel": "Joana Like"
+    }
+]
+
+const funcionarios = [
+    {
+        "idFuncionario": 1,
+        "Nome": "Anderson",
+        "Cargo": "Atendente"
+    },
+    {
+        "idFuncionario": 2,
+        "Nome": "Clara",
+        "Cargo": "Supervisora"
+    },
+    {
+        "idFuncionario": 3,
+        "Nome": "Milena",
+        "Cargo": "Diretora"
+    }
+]
