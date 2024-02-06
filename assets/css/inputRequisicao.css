@@ -11,6 +11,8 @@ input, select{
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    --accent-color: inherit; 
+    accent-color: var(--accent-color);
 }
 
 :checked{
@@ -87,7 +89,6 @@ input, select{
 
 
 .BtnInserirItens{
-    background-color:#0095C5 ;
     width: 100px;
     height: 30px;
     border-radius: 20px;
@@ -99,6 +100,30 @@ input, select{
 
 }
 .BtnInserirItens button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.BtnGravar{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+.BtnGravar button{
     background-color:#007C1B ;
     width: 100px;
     height: 30px;
@@ -135,4 +160,5 @@ input{
 #total:focus{
     outline-color: #CDCDCD;
 }
+
 
