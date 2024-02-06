@@ -324,10 +324,9 @@ radioInputs.forEach(radio => {
 
 
 function atualizarCorStatusEstoque() {
-    // Obtenha o elemento de status de estoque
     var statusEstoque = document.getElementById("StatusEstoque");
 
-    // Obtenha o produto atual
+
     var produtoAtual = produtos.find(produto => produto.idProduto == document.getElementById("CodigoProduto").value);
 
     if (!produtoAtual) {
@@ -335,21 +334,17 @@ function atualizarCorStatusEstoque() {
         return;
     }
 
-    // Obtenha o valor do estoque atual
+
     var estoqueAtual = parseFloat(document.getElementById("Estoque").value);
 
-    // Calcule a diferença entre o estoque atual e o estoque mínimo
+
     var diferencaEstoque = estoqueAtual - produtoAtual.EstoqueMinimo;
 
-    // Verifique a diferença e atualize a cor do status de estoque
     if (diferencaEstoque <= 0) {
-        // Estoque abaixo ou igual ao mínimo
         statusEstoque.src = "./assets/img/vermelho.svg";
     } else if (diferencaEstoque <= 0.1 * produtoAtual.EstoqueMinimo) {
-        // Menos de 10% do estoque mínimo restante
         statusEstoque.src = "./assets/img/amarelo.svg";
     } else {
-        // Mais de 10% do estoque mínimo restante
         statusEstoque.src = "./assets/img/verde.svg";
     }
 }
